@@ -1,0 +1,30 @@
+﻿cl : command line warning D9002: ignoring unknown option '-std=c++14'
+cl : command line warning D9002: ignoring unknown option '-O3'
+  main.cpp
+C:\Program Files (x86)\ZED SDK\include\sl/Camera.hpp(5723,16): warning C4251: 'sl::InitParameters::sdk_verbose_log_file': class 'sl::String' needs to have dll-interface to be used by clients of struct 'sl::InitParameters'
+C:\Program Files (x86)\ZED SDK\include\sl/Camera.hpp(145): message : see declaration of 'sl::String'
+C:\Program Files (x86)\ZED SDK\include\sl/Camera.hpp(5775,19): warning C4251: 'sl::InitParameters::input': class 'sl::InputType' needs to have dll-interface to be used by clients of struct 'sl::InitParameters'
+C:\Program Files (x86)\ZED SDK\include\sl/Camera.hpp(638): message : see declaration of 'sl::InputType'
+C:\Program Files (x86)\ZED SDK\include\sl/Camera.hpp(5790,16): warning C4251: 'sl::InitParameters::optional_settings_path': class 'sl::String' needs to have dll-interface to be used by clients of struct 'sl::InitParameters'
+C:\Program Files (x86)\ZED SDK\include\sl/Camera.hpp(145): message : see declaration of 'sl::String'
+C:\Program Files (x86)\ZED SDK\include\sl/Camera.hpp(5799,16): warning C4251: 'sl::InitParameters::optional_opencv_calibration_file': class 'sl::String' needs to have dll-interface to be used by clients of struct 'sl::InitParameters'
+C:\Program Files (x86)\ZED SDK\include\sl/Camera.hpp(145): message : see declaration of 'sl::String'
+C:\Program Files (x86)\ZED SDK\include\sl/Camera.hpp(5985,19): warning C4251: 'sl::PositionalTrackingParameters::initial_world_transform': class 'sl::Transform' needs to have dll-interface to be used by clients of struct 'sl::PositionalTrackingParameters'
+C:\Program Files (x86)\ZED SDK\include\sl/Camera.hpp(2969): message : see declaration of 'sl::Transform'
+C:\Program Files (x86)\ZED SDK\include\sl/Camera.hpp(6022,16): warning C4251: 'sl::PositionalTrackingParameters::area_file_path': class 'sl::String' needs to have dll-interface to be used by clients of struct 'sl::PositionalTrackingParameters'
+C:\Program Files (x86)\ZED SDK\include\sl/Camera.hpp(145): message : see declaration of 'sl::String'
+C:\Program Files (x86)\ZED SDK\include\sl/Camera.hpp(6186,31): warning C4251: 'sl::SpatialMappingParameters::allowed_resolution': struct 'std::pair<float,float>' needs to have dll-interface to be used by clients of struct 'sl::SpatialMappingParameters'
+C:\Program Files (x86)\ZED SDK\include\sl/Camera.hpp(6079): message : see declaration of 'std::pair<float,float>'
+C:\Program Files (x86)\ZED SDK\include\sl/Camera.hpp(6201,31): warning C4251: 'sl::SpatialMappingParameters::allowed_range': struct 'std::pair<float,float>' needs to have dll-interface to be used by clients of struct 'sl::SpatialMappingParameters'
+C:\Program Files (x86)\ZED SDK\include\sl/Camera.hpp(6079): message : see declaration of 'std::pair<float,float>'
+C:\Program Files (x86)\ZED SDK\include\sl/Camera.hpp(6353,16): warning C4251: 'sl::RecordingParameters::video_filename': class 'sl::String' needs to have dll-interface to be used by clients of struct 'sl::RecordingParameters'
+C:\Program Files (x86)\ZED SDK\include\sl/Camera.hpp(145): message : see declaration of 'sl::String'
+C:\Program Files (x86)\ZED SDK\include\sl/Camera.hpp(6529,35): warning C4251: 'sl::ObjectDetectionRuntimeParameters::object_class_filter': class 'std::vector<sl::OBJECT_CLASS,std::allocator<sl::OBJECT_CLASS>>' needs to have dll-interface to be used by clients of struct 'sl::ObjectDetectionRuntimeParameters'
+C:\Program Files (x86)\ZED SDK\include\sl/Camera.hpp(6529): message : see declaration of 'std::vector<sl::OBJECT_CLASS,std::allocator<sl::OBJECT_CLASS>>'
+C:\Program Files (x86)\ZED SDK\include\sl/Camera.hpp(6535,39): warning C4251: 'sl::ObjectDetectionRuntimeParameters::object_class_detection_confidence_threshold': class 'std::map<sl::OBJECT_CLASS,float,std::less<sl::OBJECT_CLASS>,std::allocator<std::pair<const sl::OBJECT_CLASS,float>>>' needs to have dll-interface to be used by clients of struct 'sl::ObjectDetectionRuntimeParameters'
+C:\Program Files (x86)\ZED SDK\include\sl/Camera.hpp(6535): message : see declaration of 'std::map<sl::OBJECT_CLASS,float,std::less<sl::OBJECT_CLASS>,std::allocator<std::pair<const sl::OBJECT_CLASS,float>>>'
+C:\Users\Bacau\Desktop\svo recording\playback\cpp\include\utils.hpp(54,20): warning C4244: 'initializing': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Bacau\Desktop\svo recording\playback\cpp\include\utils.hpp(79,104): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Bacau\Desktop\svo recording\playback\cpp\src\main.cpp(68,88): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Bacau\Desktop\svo recording\playback\cpp\src\main.cpp(111,106): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  ZED_SVO_Playback.vcxproj -> F:\build\Release\ZED_SVO_Playback.exe
