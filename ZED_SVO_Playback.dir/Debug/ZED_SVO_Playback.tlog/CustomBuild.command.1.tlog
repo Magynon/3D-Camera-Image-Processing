@@ -1,0 +1,10 @@
+^C:\USERS\BACAU\DESKTOP\SVO RECORDING\PLAYBACK\CPP\CMAKELISTS.TXT
+setlocal
+"F:\Program Files\bin\cmake.exe" "-SC:/Users/Bacau/Desktop/svo recording/playback/cpp" -BF:/build --check-stamp-file F:/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,65 @@
+﻿cl : command line warning D9002: ignoring unknown option '-std=c++14'
+cl : command line warning D9002: ignoring unknown option '-O3'
+  Filter.cpp
+C:\Users\Bacau\Desktop\svo recording\playback\cpp\src\Filter.cpp(146,45): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=uchar
+          ]
+C:\Users\Bacau\Desktop\svo recording\playback\cpp\src\Filter.cpp(146,39): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=uchar
+          ]
+C:\Users\Bacau\Desktop\svo recording\playback\cpp\src\Filter.cpp(146,33): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=uchar
+          ]
+C:\Users\Bacau\Desktop\svo recording\playback\cpp\src\Filter.cpp(213,44): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=uchar
+          ]
+C:\Users\Bacau\Desktop\svo recording\playback\cpp\src\Filter.cpp(213,39): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=uchar
+          ]
+C:\Users\Bacau\Desktop\svo recording\playback\cpp\src\Filter.cpp(213,34): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=uchar
+          ]
+C:\Users\Bacau\Desktop\svo recording\playback\cpp\src\Filter.cpp(236,45): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=uchar
+          ]
+C:\Users\Bacau\Desktop\svo recording\playback\cpp\src\Filter.cpp(236,40): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=uchar
+          ]
+C:\Users\Bacau\Desktop\svo recording\playback\cpp\src\Filter.cpp(236,35): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=uchar
+          ]
+C:\Users\Bacau\Desktop\svo recording\playback\cpp\src\Filter.cpp(257,45): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=uchar
+          ]
+C:\Users\Bacau\Desktop\svo recording\playback\cpp\src\Filter.cpp(257,40): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=uchar
+          ]
+C:\Users\Bacau\Desktop\svo recording\playback\cpp\src\Filter.cpp(257,35): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=uchar
+          ]
+C:\Users\Bacau\Desktop\svo recording\playback\cpp\src\Filter.cpp(482,35): warning C4244: '=': conversion from 'float' to 'uchar', possible loss of data
+  ZED_SVO_Playback.vcxproj -> F:\build\Debug\ZED_SVO_Playback.exe
